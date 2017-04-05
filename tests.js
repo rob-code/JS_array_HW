@@ -40,7 +40,7 @@ describe('Array tasks', function () {
 		assert.deepEqual([0, 2, 5], arrayTasks.findIndexesOf(arr, 1))
 	})
 
-	xit('should calculate the sum of all of even numbers in an array squared', function () {
+	it('should calculate the sum of all of even numbers in an array squared', function () {
 		var arr = [1, 2, 3, 4, 5]
 		assert.equal(20, arrayTasks.sumOfAllEvenNumbersSquared(arr))
 	})
