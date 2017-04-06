@@ -26,6 +26,10 @@ var arrayTasks = {
 	},
 
 	findDuplicates: function (arr) {
+
+		//this approach only works for ordered arrays
+		arr.sort();
+
 		var resultArray = [];
 			for (var i of arr){
 			if (arr[i+1] == arr[i]){
